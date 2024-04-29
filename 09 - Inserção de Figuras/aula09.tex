@@ -1,0 +1,32 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[portuguese]{babel}
+
+\begin{document}
+Notação de Figuras.
+  \begin{enumerate}
+    \item Calcule o valor de $x$ na Figura \ref{rotulo}.
+
+      \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{imagem.png}
+        \caption{Gráfico .}
+        \label{rotulo}
+      \end{figure}
+
+    \item Calcule o valor de $x$ na Figura \ref{meu-rotulo}.
+
+      \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{imagem.png}
+        \caption{Gráfico .}
+        \label{meu-rotulo}
+      \end{figure}
+
+  \end{enumerate}
+
+\end{document}
